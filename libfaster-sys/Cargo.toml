@@ -1,0 +1,13 @@
+[package]
+name = "libfaster-sys"
+version = "0.1.0"
+authors = ["Matthew Brookes <mbrookes1304@gmail.com>", "Yongjun He <yongjun.he@inf.ethz.ch>", "Max Meldrum <mmeldrum@kth.se>"]
+edition = "2021"
+build = "build.rs"
+
+[dependencies]
+libc = "0.2"
+
+[build-dependencies]
+bindgen = "0.50"
+cmake = "0.1"

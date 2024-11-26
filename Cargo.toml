@@ -1,0 +1,8 @@
+[package]
+name = "mlkv-rust"
+version = "0.1.0"
+authors = ["Yongjun He <yongjun.he@inf.ethz.ch>"]
+edition = "2021"
+
+[dependencies]
+libfaster-sys = { path = "libfaster-sys", version = "0.1.0" }
